@@ -26,7 +26,6 @@ AUTODETECT: LOAD	EnSonar0
 			IN		DIST0			;read the left distance
 			STORE	LEFTD
 			IN		DIST5			;read the right distance
-			;STORE	RIGHTD
 			SUB		LEFTD
 			JPOS	SETUP_L
 			JUMP	SETUP_R				
